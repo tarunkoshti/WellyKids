@@ -1,0 +1,1109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #352317;
+    }
+    html,body
+    {
+    height: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
+    }
+
+    h1{
+    font-family: Gliker;
+    }
+    
+    #page1
+    {
+        height: 100%;
+        width: 100%;
+        background-color: #F4F0ED;
+        overflow: hidden;
+    }
+    
+    #page1 #ads
+    {
+        width: 100%;
+        height: 7%;
+        background-color: #C9A6FF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        position: relative;
+        padding: 0 5%;
+        
+    }
+    
+    #page1 #ads h4
+    {
+        font-weight: 500;
+    }
+    
+    #page1 #ads h4 img 
+    {
+        height: 18px;
+    }
+    
+    #page1 #ads::after
+    {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 12px;
+        /* background-color: red; */
+        background: linear-gradient(-45deg, #F4F0ED 6px, transparent 0),
+        linear-gradient(45deg, #F4F0ED 6px, transparent 0);
+        background-size: 12px;
+    }
+    
+    #page1 nav
+    {
+        height: 8%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5%;
+        position: relative;
+        z-index: 1;
+    }
+    
+    #page1 nav h4:hover
+    {
+       cursor: pointer;
+    }
+    #page1 nav .nav-partl
+    {
+        /* width: 25%; */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 2vw;
+        /* background: yellow; */
+    }
+    
+    #page1 nav .nav-partl h4
+    {
+        white-space: nowrap;
+    }
+
+    #page1 nav .nav-partr
+    {
+        /* width: 25%; */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 2vw;
+        /* background: yellow; */
+    }
+    
+    #page1 nav .nav-partr h4
+    {
+        white-space: nowrap;
+    }
+    
+    #page1 nav i
+    {
+        font-size: 20px;
+        color: black;
+    }
+
+    #page1 nav h1
+    {
+        font-size: 40px;
+        position: relative;
+        color: #00AA65;
+    }
+    
+    #page1 nav h1::before
+    {
+        content: "WellyKids";
+        position: absolute;
+        /* color: red; */
+        /* font-size: 50px; */
+        -webkit-text-stroke: 5px black;
+        z-index: -1;
+    }
+
+    #page1 #main
+    {
+        height: 85%;
+        width: 100%;
+        background-color: #F4F0ED;
+        position: relative;
+        padding-top: 2%;
+    }
+    
+    #page1 #main::after
+    {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 16px;
+        background: linear-gradient(-45deg, white 8px, transparent 0),
+        linear-gradient(45deg, white 8px,transparent 0);
+        background-size: 20px;
+    }
+
+    #page1 #main h1
+    {
+        font-size: 10vh;
+        text-align: center;
+        word-spacing: 20px;
+        letter-spacing: 5px;
+    }
+    
+    #page1 #main #n
+    {
+        margin-left: 7%
+    }
+
+    #page1 #main h1 span
+    {
+        -webkit-text-stroke: 2px black;
+        color: transparent;
+        font-family: Gliker;
+    }
+    
+    #page1 #main #box
+    {
+        height: 65.5%;
+        width: 100%;
+        /* background-color: red; */
+        overflow: hidden;
+        display: flex;
+    }
+
+    #page1 #main #box .img
+    {
+        height: 150%;
+        /* margin-left: 15%; */
+        rotate: -20deg;
+    }
+
+    #page1 #main #box #right .b
+    {
+        margin-top: 2%;
+    }
+
+    #page1 #main #box .c
+    {
+        height: 150%;
+        /* margin-left: 8%; */
+        rotate: 15deg;
+        margin-top: -1%
+    }
+
+    #page1 #main #box #left
+    {
+        height: 100%;
+        width: 40%;
+        /* background-color: rebeccapurple; */
+        display: flex;
+        justify-content: center;
+    }
+
+    #page1 #main #box #right
+    {
+        height: 100%;
+        width: 60%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+    }
+
+    
+    #page1 #main #box #left #box1
+    {
+       height: 100%;
+       width: 40%;
+       /* background-color: orange; */
+       display: flex;
+       justify-content: right;
+       align-items: center;
+       margin-top: -8%;
+    }
+
+    /* #page1 #main #box #left #box1 img
+    {
+        
+    } */
+
+    #page1 #main #box #right #box2
+    {
+        height: 100%;
+        width: 25%;
+        /* background-color: aqua; */
+        border: 1px;
+    }
+
+    #page1 #main #box #right #design
+    {
+        height: 55%;
+        position: absolute;
+        bottom: 5%;
+        /* z-index: 0; */
+    }
+
+    #page1 #main #box #box2 #ubox
+    {
+        padding: 10%;
+        /* background-color: #fff; */
+    }
+
+    #page1 #main #box #box2 h4
+    {
+        line-height: 25px;
+    }
+
+    #page1 #main #box #box2 button
+    {
+        margin-top: 5%;
+        background-color: #352317;
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        position: relative;
+        border-radius: 0;
+    }
+
+    #page1 #main #box #box2 button::before
+    {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 6px;
+        background: linear-gradient(-135deg, #F4F0ED 3px, transparent 0),
+        linear-gradient(135deg, #F4F0ED 3px, transparent 0);
+        background-size: 6px;
+    }
+
+    #page1 #main #box #box2 button::after
+    {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 6px;
+        background: linear-gradient(-45deg, #F4F0ED 3px, transparent 0),
+        linear-gradient(45deg, #F4F0ED 3px, transparent 0);
+        background-size: 6px;
+    }
+
+
+    
+
+
+    #page2
+    {
+        width: 100%;
+        /* height: 100%;  */
+        display: flex;
+        gap: 2%;
+        padding: 3%;
+    }
+
+    #page2 #left
+    {
+        /* height: 100%; */
+        width: 50%;
+        background-color: #F4F0ED;
+        border: 1px solid transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+    #page2 #left img
+    {
+        width: 80%;
+        /* padding: 10% 0; */
+        /* margin: 9% 0 0 10%; */
+        margin: 10% 0;
+        border-radius: 20px;
+        
+    }
+
+    #page2 #right
+    {
+        background-color: #F4F0ED;
+        border-radius: 20px;
+        /* height: 100%; */
+        width: 50%;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #page2 #right h1
+    {
+        font-size: 50px;
+        font-weight: 500;
+        width: 70%;
+        text-align: center;
+    }
+
+    #page2 #right p
+    {
+        width: 80%;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    #rating
+    {
+        /* background-color: yellowgreen; */
+        width: 80%;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-around;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    #rating i
+    {
+        color: #00AA65;
+    }
+
+    #right #pack
+    {
+        width: 80%;
+        display: flex;
+        /* background-color: yellow; */
+        font-size: 1re;
+        border: 1px solid #4DD19E;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        border-radius: 15px;
+        white-space: nowrap;
+    }
+
+    #right #pack span
+    {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    #right #pack i
+    {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.763);
+    }
+
+    button
+    {
+        white-space: nowrap;
+        text-align: center;
+        width: 80%;
+        padding: 2% 0;
+        border-radius: 15px;
+        background-color: #4DD19E;
+        border: none;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    button h3
+    {
+        position: relative;
+        z-index: 2;
+    }
+
+    button #green
+    {
+        height: 100%;
+        width: 100%;
+        background-color: #FC9E59;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: left ease 0.3s;
+    }
+
+    button:hover #green
+    {
+        left: 0;
+    }
+
+    
+    
+    .page3
+    {
+        height: 100%;
+        width: 100%;
+        /* background-color: black; */
+        padding: 0 3%;
+    }
+
+    .page3 #content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .page3 #content h1
+    {
+        font-size: 50px;
+        font-weight: 500;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .page3 #content p
+    {
+        font-size: 18px;
+        font-weight: 500;
+        width: 430px;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+
+    .page3 .box
+    {
+        height: 500px;
+        width: 270px;
+        /* background-color: red; */
+        display: inline-block;
+        white-space: nowrap;
+        margin-left: 10px;
+        /* border-radius: 20px; */
+        overflow: hidden;
+        /* text-align: center; */
+        position: relative;
+    }
+
+    .page3 #scroll
+    {
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    #scroll::-webkit-scrollbar
+    {
+        display: none;
+    }
+    .page3 #prize
+    {
+        height: 20%;
+        width: 100%;
+        /* background-color: purple; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .page3 #prize button
+    {
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 15px;
+    }
+
+    .page3 .box .ubox
+    {
+        height: 80%;
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        position: relative;
+        border-radius: 20px;
+
+    }
+
+    .page3 .box .circle
+    {
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+        background-color: white;
+        /* position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%); */
+    }
+
+    .page3 .box h1
+    {
+        color: #352317;
+        font-size: 100%;
+    }
+
+    .page3 .box .img
+    {
+        height: 250px;
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translate(-50%,0%);
+        transition: ease 0.3s;
+    }
+
+    .page3 .box .img:hover 
+    {
+        transform-origin: 7% 50%;
+        rotate: -20deg;
+        cursor: pointer;
+    }
+
+
+    
+    #page4
+    {
+        /* min-height: 60vh; */
+        padding: 0% 3%;
+    }
+
+    #page4 #sample
+    {
+        width: 100%;
+        background-color: #352317;
+        display: flex;
+        border-radius: 20px;
+    }
+
+    #page4 #box1
+    {
+        width: 30%;
+        /* height: 60vh; */
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 4%;
+    }
+
+    #page4 #box1 h1
+    {
+        font-size: 50px;
+        font-weight: 500;
+        color: white;
+    }
+
+    #page4 #box1 p
+    {
+        font-size: 18px;
+        font-weight: 500;
+        /* width: 60%; */
+        /* width: 80%; */
+        color: white;
+    }
+
+    #page4 #box2
+    {
+        width: 70%;
+        /* height: 60vh; */
+        /* background-color: rebeccapurple; */
+        display: flex;
+    }
+
+    #page4 #box2 #left
+    {
+        width: 60%;
+        height: 60vh;
+        /* background-color: yellow; */
+        position: relative;
+    }
+
+    #page4 #box2 #left #pack
+    {
+        /* height: 40px;
+        width: 305px;
+        background-color: #ECDECF; */
+        height: 400px;
+        width: 300px;
+        background-color: #ECDECF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+    }
+
+    #page4 #box2 #left #c
+    {
+        height: 270px;
+        width: 270px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    #page4 #box2 #left img
+    {
+        height: 250px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    #page4 #box2 #left img:hover
+    {
+        height: 400px;
+    }
+   
+    #page4 #box2 #right
+    {
+        width: 40%;
+        /* height: 60vh; */
+        /* background-color: goldenrod; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #page4 #box2 #right #picture
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #page4 #box2 #right #picture img
+    {
+        width: 50px;
+    }
+
+    #page4 #box2 #right #text
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    #page4 #box2 #right #text h3,#text p
+    {
+        color: white;
+    }
+
+    #page5
+    {
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        gap: 2%;
+        padding: 3%;
+    }
+
+    #page5 #left
+    {
+        width: 50%;
+        height: 100%;
+        background-color: #F4F0ED;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+    }
+
+    
+    #page5 #left h1
+    {
+        font-size: 50px;
+        font-weight: 500;
+        width: 70%;
+        text-align: center;
+    }
+
+    #page5 #left p
+    {
+        width: 80%;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+   
+
+    #page5 #left #tip
+    {
+        /* width: 80%; */
+        display: flex;
+        gap: 20px;
+    }
+
+    #page5 #left #tip h3
+    {
+        padding: 7px 20px;
+        border: 1px solid #352317;
+        border-radius: 5px;
+    }
+
+    /* #page5 #right
+    {
+        width: 50%;
+        height: 100%;
+        background-color: #F4F0ED;
+        border-radius: 20px;
+    } */
+
+    #page5 #right
+    {
+        /* height: 100%; */
+        width: 50%;
+        background-color: #F4F0ED;
+        border: 1px solid transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+    #page5 #right img
+    {
+        width: 80%;
+        border-radius:20px;
+    }
+
+    .page6
+    {
+        height: 90%;
+    }
+
+    .page6  .boxx
+    {
+        height: 350px;
+        width: 270px;
+        border-radius: 20px;
+    }
+
+    .page6 .boxx .ubox
+    {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .page6  .boxx .ubox img
+    {
+        height: 130px;
+    }
+
+    .page6  .boxx .ubox h1
+    {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .page6  .boxx .ubox p
+    {
+        font-size: 18px;
+        font-weight: 500;
+        width: 80%;
+        /* background-color: red; */
+        white-space: wrap;
+        text-align: center;
+    }
+
+    #page7
+    {
+        width: 100%;
+        margin-bottom: 50px;
+        /* background-color: thistle; */
+    }
+
+    #page7 #head
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #page7 #head h1
+    {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    #page7 #review
+    {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    #page7 #review .rbox
+    {
+        width: 220px;
+        min-height: 150px;
+        background-color: red;
+        border-radius: 15px;
+        border: 3px solid #352317;
+    }
+
+    #page7 #review .rbox p
+    {
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    #page7 #review .rbox .info img
+    {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    #page7 #review .info
+    {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    #page7 #review .info span
+    {
+        height: 50px;
+        padding: 5px;
+    }
+
+
+    #infi-scroll
+    {
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        /* background-color: red; */
+        position: relative;
+        height: 20vh;
+    }
+
+    #infi-scroll::-webkit-scrollbar
+    {
+        display: none;
+    }
+
+    .scroller
+    {
+        white-space: nowrap;
+        animation-name: anime;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        display: flex;
+        align-items: center;
+        height: 83%;
+        background-color: yellow;
+    }
+
+    #infi-scroll::before
+    {
+        content: "";
+        width: 461%;
+        height: 13px;
+        /* background-color: red; */
+        position: absolute;
+        top: 0%;
+        left: 0;
+        background: linear-gradient(-45deg, yellow 8px, transparent 0),
+        linear-gradient(45deg, yellow 8px, transparent 0);
+        background-size: 16px;
+    }
+
+    #infi-scroll::after
+    {
+        content: "";
+        width: 461%;
+        height: 13px;
+        /* background-color: red; */
+        position: absolute;
+        bottom: 0%;
+        left: 0;
+        background: linear-gradient(-135deg, yellow 8px, transparent 0),
+        linear-gradient(135deg, yellow 8px, transparent 0);
+        background-size: 16px;
+    }
+
+
+    .scroller h1
+    {
+        background-color: yellow;
+        /* margin-right: 50px; */
+        display:inline-block;
+        font-size: 70px;
+    }
+
+    .scroller i
+    {
+        padding: 40px;
+    }
+    
+    @keyframes anime{
+
+    0%
+    {
+        transform: translate(calc(-100%));
+    }
+
+    100%
+    {
+        transform: translate(0);
+    }
+    }
+
+    #footer *
+    {
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    #footer
+    {
+        width: 100%;
+        background-color: #352317;
+        margin-top: -10px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border: 1px solid transparent;
+    }
+
+    #footer .fbox
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 4vw;
+        margin-top: 8vh;
+    }
+
+    #footer .fbox h1
+    {
+        font-size: 40px;
+        width: 50%;
+        text-align: end;
+    }
+
+    #footer .fbox img
+    {
+        height: 100px;
+    }
+
+    #footer .fbox #mail
+    {
+        display: flex;
+        border: 2px solid #4C3524;
+        height: 45px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    #footer .fbox #mail input
+    {
+        padding: 10px;
+        outline: none;
+        background-color: transparent;
+        border: none;
+    }
+
+    #footer .fbox #mail span
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FF7133;
+        padding: 0 10px;
+    }
+
+    #footer .fbox #mail span h4
+    {
+        font-size: 14px;
+    }
+
+    #footer .fbox #mail span i
+    {
+        font-size: 30px;
+        font-weight: 100;
+        padding-top: 3px;
+    }
+
+    #footer .fbox .fbox-left
+    {
+        width: 54%;
+        
+    }
+
+    #footer .fbox .fbox-left span
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #footer .fbox .fbox-left span h4
+    {
+        width: 80px;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #footer .fbox .fbox-right
+    {
+        width: 50%;
+    }
+
+    #footer .fbox .fbox-right i
+    {
+        font-size: 40px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+    .bottom
+    {
+        padding-left: 4%;
+        padding-bottom: 2%;
+    }
+
+    
